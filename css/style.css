@@ -1,59 +1,72 @@
-.navbar {
-    background: #fff;
-    font-family: 'Roboto', sans-serif;
+.navbar .navbar-brand {
+    width: 50%;
 }
-header .info {
-    width: 100%;
-    margin: 0;
-}
-
-header nav .container div div.logo {
-    width: 40%;
-}
-header nav .container div div.logo img {
+.navbar .navbar-nav {
     width: 100%;
 }
-
-.navbar .container div.text-cont ul {
-    width: 100%;
-}
-.navbar .container div.text-cont ul li {
-    margin: 0 2%;
-}
-.navbar .container div.text-cont ul li a {
-    cursor: pointer;
-    color:#343a40;
-}
-.navbar .container div.text-cont ul li a:hover {
-    cursor: pointer;
-    color:#1570FC;
+.navbar .navbar-nav a {
+    color:#444444;
+    width: 35%;
 }
 
-.slide-area .carousel-inner .carousel-item {
-    width: 100%;
-    text-shadow: 0.1em 0.1em 0.05em #333;
-    background-size: cover;
-    background-position: center;
+.navbar .navbar-nav a:hover {
+    color:#ffc107;
+}
+section#info {
+    background: url("../img/sect3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 100px 0 100px 0;
+}
+section#info .titulo {
+    padding-top: 70px;
+    padding-left: 4%;
+}
+section#info .titulo {
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+section#info .titulo .btn {
+    margin-top: 20px;
+    color:white;
+    font-size: 1.2em;
+    border:1px solid white;
 }
 
-.slide-area .carousel-inner .carousel-item img {
-    width: 100%;
-    margin: auto;
-}
-.slide-area .carousel-item .carousel-caption {
-    margin-bottom: 100px;
-}
-.slide-area .carousel-item .carousel-caption h3 {
-    font-size: 23px;
-    margin-bottom: 15px;
-    margin-top: 50px;
+section#info2 .row {
+    padding: 50px 10% 0 10%;
 }
 
-section.info {
+section#info2 .row p {
+    margin-top:20px;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    color:#01073B;
+}
+section#about {
     padding-top:50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
-
-section.info div p {
-    font-size: 1.3em;
+section#about2 .row div.img-carga {
+    background: url("../img/aubrey-odom-1503026-unsplash.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 70vh;
+    display:inline-block;
+}
+section#about2 .row div.texto {
+    padding: 20px 2%;
+}
+section#contacto  {
+    color:white;
+    background: #01073B;
+    padding: 30px 10%
+}
+section#contacto hr {
+    width: 50%;
+    border-top: 1px solid white;
+}
+section#contacto .row iframe {
+    width: 100%;
 }
