@@ -1,0 +1,59 @@
+.navbar {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+header .info {
+    width: 100%;
+    margin: 0;
+}
+
+header nav .container div div.logo {
+    width: 40%;
+}
+header nav .container div div.logo img {
+    width: 100%;
+}
+
+.navbar .container div.text-cont ul {
+    width: 100%;
+}
+.navbar .container div.text-cont ul li {
+    margin: 0 2%;
+}
+.navbar .container div.text-cont ul li a {
+    cursor: pointer;
+    color:#343a40;
+}
+.navbar .container div.text-cont ul li a:hover {
+    cursor: pointer;
+    color:#1570FC;
+}
+
+.slide-area .carousel-inner .carousel-item {
+    width: 100%;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide-area .carousel-inner .carousel-item img {
+    width: 100%;
+    margin: auto;
+}
+.slide-area .carousel-item .carousel-caption {
+    margin-bottom: 100px;
+}
+.slide-area .carousel-item .carousel-caption h3 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+section.info {
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+section.info div p {
+    font-size: 1.3em;
+}
