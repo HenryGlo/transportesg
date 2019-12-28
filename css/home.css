@@ -1,0 +1,157 @@
+.titlehome {
+    font-family: 'Poppins', sans-serif;
+}
+.homesub {
+    font-family: 'Raleway', sans-serif;
+}
+#home .navbar-nav li {
+    margin-right: 5%;
+    margin-left: 5%;
+    
+}
+#home .navbar-nav li  a{
+    border-bottom:2px solid transparent;
+    
+}
+
+
+#home {
+    background-image: url("../img/home1.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 50px 0;
+}
+
+#home .navbar {
+    background: transparent;
+}
+
+#home .navbar-nav li a:hover {
+    color:#ffc107 !important;
+    border-bottom:2px solid #ffc107;
+}
+
+#home .texthome {
+    margin-top: 100px;
+}
+
+#home .formcont {
+    background: #fff;
+    padding: 20px 5%;
+    border-radius: 15px;
+    width: 75%;
+}
+#home .formcontmodal {
+    background: #fff;
+    padding: 20px 5%;
+    border-radius: 15px;
+    width: 100%;
+}
+#home .formcont h2 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#home .formcont hr {
+    border-top: 1px solid #ffc107;
+}
+
+.ui-datepicker {
+    width: 216px;
+    height: auto;
+    margin: 5px auto 0;
+    font: 9pt Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    background: white;
+    
+}
+
+#services {
+    padding: 50px 0;
+}
+#services .contitems {
+    margin-top: 100px;
+}
+#services .svgcont img {
+    width: 15%;
+}
+
+#services p {
+    font-size: 16px;
+    color:grey;
+}
+
+#services h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+#flota {
+    padding: 50px 0;
+}
+#flota .imgcar {
+    border:1px solid rgba(90, 90, 90, 0.507);
+    padding-bottom: 10px;
+}
+#flota .imgcar button {
+    width: 70%;
+}
+#flota .imgcar img {
+    width: 100%;
+}
+#flota h2 {
+    font-size: 18px;
+}
+#flota p {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgba(0,0,0,.4);
+    display: block;
+    margin-bottom: 20px;
+}
+
+#workflow {
+    background-image: url("../img/home2.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 50px 0;
+}
+#workflow .text {
+    margin-bottom: 80px;
+}
+#workflow .itemcont {
+    color:white;
+}
+#workflow .itemcont h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+#workflow .itemcont p {
+    font-size: 16px;
+    color:rgba(255,255,255,.8);
+}
+.circulo {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+    background: transparent;
+    border:2px solid #ffc107;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%
+}
+.circulo i {
+    color:white;
+}
